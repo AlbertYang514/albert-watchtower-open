@@ -1,0 +1,49 @@
+{
+  "email": {
+    "smtp_host": "smtp.example.com",
+    "smtp_port": 465,
+    "smtp_ssl": true,
+    "smtp_starttls": false,
+    "username": "YOUR_EMAIL@example.com",
+    "password": "YOUR_SMTP_AUTH_CODE",
+    "from": "YOUR_EMAIL@example.com",
+    "to": "YOUR_RECEIVE_EMAIL@example.com"
+  },
+  "report": {
+    "server_label": "小鸡",
+    "sites_heading": "网站",
+    "titles": {
+      "morning": "小鸡值班室早报🐣",
+      "evening": "小鸡值班室晚报🐣",
+      "daily": "小鸡值班室日报🐣"
+    }
+  },
+  "timezone": "auto",
+  "locations": [
+    {
+      "name": "示例城市 A",
+      "lat": 0.0,
+      "lon": 0.0,
+      "role": "home"
+    },
+    {
+      "name": "示例城市 B",
+      "lat": 0.0,
+      "lon": 0.0,
+      "role": "server"
+    }
+  ],
+  "sites": [
+    {
+      "name": "示例网站",
+      "url": "https://example.com"
+    }
+  ],
+  "llm": {
+    "enabled": false,
+    "base_url": "https://api.example.com",
+    "api_key": "YOUR_LLM_API_KEY",
+    "model": "YOUR_MODEL_NAME",
+    "timeout_seconds": 12
+  }
+}

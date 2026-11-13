@@ -1,0 +1,2 @@
+# Albert Watchtower has no third-party Python dependencies.
+# This file exists so tooling can recognise the project as a Python package.
